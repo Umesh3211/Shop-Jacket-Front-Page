@@ -32,7 +32,7 @@ html, body {
     cursor: pointer;
 }
 
-#logo_image{
+#logo_image img{
     background-image: url(./images/handmade.webp);
     width: 50px;
     height: 50px;
@@ -153,21 +153,22 @@ html, body {
         height: 15vh;
         border-bottom: 2px solid rgb(100, 100, 100);
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     #nav h3{
         display: none;
     }
 
-#logo{
-    background-image: url(./images/handmade.webp);
+#logo img{
     width: 60px;
     height: 60px;
     background-size: cover;
+    align-items: center;
+    margin-right: 10px;
 }git
 
 #company-brand{
-    margin-left: 150%;
+    margin-left: 1500%;
 }
 
 #nav bag{
